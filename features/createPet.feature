@@ -1,6 +1,6 @@
 Feature: Pets creation
 
-	Scenario Outline: Succesful pet creation
+Scenario Outline: Succesful pet creation
 		Given JSON "<payload>"
 		When user sends a POST request to "/pet" endpoint
 		Then user sees successful response status code
@@ -12,7 +12,7 @@ Feature: Pets creation
 			| body_request2.json |
 			| body_request3.json |
 
-	Scenario: Unsuccesful pet creation using invalid method
+Scenario: Unsuccesful pet creation using invalid method
 		When user sends an invalid PATCH equest to "/pet" endpoint
 		Then user sees error message with status code 405
 
