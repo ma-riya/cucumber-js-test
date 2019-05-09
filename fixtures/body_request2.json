@@ -1,0 +1,13 @@
+{
+  "name": "Bonny",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 30,
+      "name": "string"
+    }
+  ],
+  "status": "taken"
+}

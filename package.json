@@ -1,0 +1,18 @@
+{
+  "name": "cucumber_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js"
+  },
+  "author": "Mariya Danilova",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-shallow-deep-equal": "^1.4.6",
+    "chai-subset": "^1.6.0",
+    "cucumber": "^5.1.0",
+    "sync-request": "^6.1.0"
+  }
+}
